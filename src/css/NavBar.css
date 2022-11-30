@@ -1,5 +1,24 @@
 ul{
+    margin: 0px;
+    padding: 0;
     display: flex;
     align-items: center;
     list-style: none;
+}
+a{
+    height: 100%;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Antonio', sans-serif;
+    font-size: 39px;
+    margin: 0px;
 }

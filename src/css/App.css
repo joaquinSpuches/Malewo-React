@@ -1,4 +1,42 @@
-.header {
+header {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+ 
+}
+
+header img{
+   
+    padding: 0px;
+    width: 80px;
+    
+    left: 1%;
+    top:10px;
+}
+.hover:hover{
+   
+    animation: p-load 400ms ease-out 100ms;
+    animation-fill-mode: forwards;
+   
+
+}
+@keyframes p-load{
+    0%{
+        color:white;
+       
+    }
+    100%{
+        
+        color:grey;
+
+       
+    }
 }
