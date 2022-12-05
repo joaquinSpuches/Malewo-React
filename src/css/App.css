@@ -6,12 +6,11 @@ header {
     display: flex;
     align-items: center;
 }
-
-a {
-    color: white;
-    text-decoration: none;
- 
+.noHover{
+    display: none
 }
+
+
 
 header img{
    

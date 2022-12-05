@@ -8,7 +8,8 @@ function App() {
     <div>
       <header className='header'>
         <a className='noHover' href='/'><img src={logo} /></a>
-        <NavBar links={['Home', 'Products','About Us', 'Contact'] }  />
+        <h1>CASA MALEWO</h1>
+        <NavBar  links={['Home', 'Products','About Us', 'Contact'] }  /> 
         <LogIn />
 
       </header>

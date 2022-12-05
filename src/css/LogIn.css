@@ -1,4 +1,10 @@
+
 .enterBox{
-    display: flex;
-    align-items: center;
+    display:none
+}
+@media(min-width: 800px){
+    .enterBox{
+        display: flex;
+        align-items: center;
+    }
 }

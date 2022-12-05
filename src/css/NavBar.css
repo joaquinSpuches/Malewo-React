@@ -4,15 +4,21 @@ ul{
     display: flex;
     align-items: center;
     list-style: none;
+  
+    margin-left: auto;
+    margin-right: auto;
 }
 a{
     height: 100%;
     text-align: center;
     display: flex;
     cursor: pointer;
+    font-size: 2rem;
     align-items: center;
     padding: 10px;
     font-family: 'Poppins', sans-serif;
+    color:#333;
+    
 
 }
 h1{
@@ -21,4 +27,32 @@ h1{
     font-family: 'Antonio', sans-serif;
     font-size: 39px;
     margin: 0px;
+}
+.links{
+    top: -400px;
+    position: absolute;
+    
+    
+}
+.links.active   {
+    width: 100%;
+    display: block;
+    top: 30%;
+    right:0;
+    left:0;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+@media(min-width:800px) {
+    a{
+    font-size: 1rem;
+    display: inline;
+    color:white
+    
+    } 
+    .links{
+        position: initial;
+    }  
+    
 }

@@ -1,23 +1,21 @@
-import React, {Component} from "react";
+import React, {useState} from "react";
 import '../css/NavBar.css'
-
-class NavBar extends Component {
-    constructor(props){
-        super(props)
-        this.state = {
-            props: props
-        }        
-    }
-    render(){
-
-        return(
+import BurgerMenu from './BurgerMenu' 
+function NavBar(props) {
+    const [clicked, setClicked] = useState(false)
+    const handleClick= ()=>
+{
+    setClicked(!clicked)
+}
+    return(
         <div>
-            <h1>CASA MALEWO</h1>
-            <ul>
-                {this.props.links.map(link => <a  className="hover" key={link}> {link} </a>)}
+            <BurgerMenu clicked ={clicked} handleClick={handleClick}/>
+            <ul className={`links ${clicked ? 'active':''}`  }>
+                {props.links.map(link => <a key={link}> {link} </a>)}
             </ul>
+
         </div>
         )    
 }
-}
+
 export default NavBar
