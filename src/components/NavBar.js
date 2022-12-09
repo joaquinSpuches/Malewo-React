@@ -1,21 +1,16 @@
 import React, {useState} from "react";
 import '../css/NavBar.css'
 import BurgerMenu from './BurgerMenu' 
-function NavBar(props) {
-    const [clicked, setClicked] = useState(false)
-    const handleClick= ()=>
-{
-    setClicked(!clicked)
-}
+
+export default function NavBar(props) {
+    console.log(props.clicked)
     return(
         <div>
-            <BurgerMenu clicked ={clicked} handleClick={handleClick}/>
-            <ul className={`links ${clicked ? 'active':''}`  }>
-                {props.links.map(link => <a key={link}> {link} </a>)}
+            <BurgerMenu clicked ={props.clicked} handleClick={props.handleClick}/>
+            <ul className={`links ${props.clicked ? 'active':''}`  }>
+                {props.links.map(link => <li> <a href={link} key={link}> {link} </a></li>)}
             </ul>
 
         </div>
         )    
 }
-
-export default NavBar

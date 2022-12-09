@@ -1,21 +1,15 @@
-import NavBar from "./components/NavBar";
-import LogIn from './components/LogIn';
-import logo from './img/logo.jpg'
+
+import Header from './components/Header'
 import './css/App.css'
+import Main from './components/Main'
+
 function App() {
 
   return (
     <div>
-      <header className='header'>
-        <a className='noHover' href='/'><img src={logo} /></a>
-        <h1>CASA MALEWO</h1>
-        <NavBar  links={['Home', 'Products','About Us', 'Contact'] }  /> 
-        <LogIn />
-
-      </header>
-      <main>
-        {/* <ProductList /> */}
-      </main>
+      <Header />
+      <Main classStyle='main' />  
+  
     </div>
   );
 }

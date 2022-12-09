@@ -17,8 +17,8 @@ a{
     align-items: center;
     padding: 10px;
     font-family: 'Poppins', sans-serif;
-    color:#333;
-    
+    color:#ffff;
+    text-decoration: none;
 
 }
 h1{
@@ -27,17 +27,23 @@ h1{
     font-family: 'Antonio', sans-serif;
     font-size: 39px;
     margin: 0px;
+    
+}
+.title{
+    margin-bottom: 4px
 }
 .links{
     top: -400px;
     position: absolute;
+
     
     
 }
 .links.active   {
+    
     width: 100%;
     display: block;
-    top: 30%;
+    z-index: -1;
     right:0;
     left:0;
     margin-left: auto;

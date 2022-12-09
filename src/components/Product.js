@@ -1,4 +1,7 @@
 import React from "react";
+import productImg from '../img/1.jpg';
+import '../css/Product.css'
+
 
 function Product(props) {
 
@@ -6,9 +9,9 @@ function Product(props) {
 
     return (
         <article>
-            <img src="/productImage.jpg"/>
-            <h1>
-              hola   
+            <img src={productImg}/>
+            <h1 className="product">
+                Maceta 1 
             </h1>
         </article>
     )

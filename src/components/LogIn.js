@@ -1,17 +1,15 @@
-import React,{Component} from "react";
+import React, {useState} from "react";
 import '../css/LogIn.css'
-export default class LogIn extends Component{
-    constructor(){
-        super()
-    }
-
-    render(){
+export default function LogIn (props){
+   
+   
+    
+    
         return(
-            <div className="enterBox" >
-            <a  className="hover" href="/logIn">Iniciar sesión</a>
-            <a className="hover" href="/register">Registrarse</a>
-            </div>
+            <ul className={`enterBox ${props.clicked2 ? 'active':''}`  }>
+            <li><a  className="hover" link="/logIn">Iniciar sesión</a></li>
+            <li><a className="hover" link="/register">Registrarse</a></li>
+            </ul>
         )
     
     }
-}

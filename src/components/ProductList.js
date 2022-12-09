@@ -1,7 +1,7 @@
-import React from 'react'
-import Product from './Product'
+import React from 'react';
+import Product from './Product';
 
-function ProductList(props) {
+export default function ProductList(props) {
     return (
         <section>
             <Product/>

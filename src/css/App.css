@@ -1,10 +1,11 @@
 header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    background-color: black;
-    display: flex;
+    background-color: rgb(25, 25, 25);
     align-items: center;
+
 }
 .noHover{
     display: none
@@ -15,7 +16,8 @@ header {
 header img{
    
     padding: 0px;
-    width: 80px;
+    width: 55px;
+    height: 54px;
     
     left: 1%;
     top:10px;
