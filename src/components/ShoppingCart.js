@@ -6,7 +6,7 @@ function ShoppingCart (props) {
     
     return(
         <div>
-        <ShopButton handleClick2={props.handleClick2}/>
+        <ShopButton clicked={props.clicked} handleClick2={props.handleClick2}/>
         <LogIn clicked2={props.clicked2} handleClick2={props.handleClick2} />
         </div>
        

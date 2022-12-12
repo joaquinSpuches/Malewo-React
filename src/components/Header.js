@@ -19,10 +19,10 @@ const handleClick2 = ()=>{
   }
     return(
     <header className='header'>
-        <ShoppingCart handleClick2={handleClick2}  clicked2={clicked2} />
+        <ShoppingCart handleClick2={handleClick2} handleClick={handleClick} clicked={clicked}  clicked2={clicked2} />
         <a className='noHover' href='/'><img src={logo} /></a>
         <h1 className="title">CASA MALEWO</h1>
-        <NavBar  handleClick={handleClick } clicked={clicked} links={['Home', 'Products','About Us', 'Contact'] }  /> 
+        <NavBar  handleClick={handleClick } handleClick2={handleClick2} clicked2={clicked2} clicked={clicked} links={['Home', 'Products','About Us', 'Contact'] }  /> 
        
         
 

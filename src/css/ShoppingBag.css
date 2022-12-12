@@ -3,3 +3,9 @@ img{
     cursor: pointer;
     
 }
+.shopButton{
+    opacity: 0;
+    cursor: none;
+    display: none;
+
+}
