@@ -8,7 +8,7 @@ export default function NavBar(props) {
         <div>
             <BurgerMenu clicked ={props.clicked} clicked2={props.clicked2} handleClick={props.handleClick}/>
             <ul className={`links ${props.clicked ? 'active':''}`  }>
-                {props.links.map(link => <li> <a href={link} key={link}> {link} </a></li>)}
+                {props.links.map((link, i) => <li> <a href={link} key={i}> {link} </a></li>)}
             </ul>
 
         </div>

@@ -5,7 +5,7 @@ import logo from '../img/logo.jpg'
 import ShoppingCart from './ShoppingCart'
 import '../css/Header.css'
 
-export default function Header(props) {
+export default function Header() {
   const [clicked, setClicked] = useState(false)
     const handleClick= ()=>
 {

@@ -1,18 +1,18 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Product from './Product';
 import '../css/Product.css'
+import productsLs from '../products.json'
+
 
 export default function ProductList(props) {
+    const [products,setProducts] = useState(productsLs)
+
     return (
         <section className='productList'>
-            <Product/>
-            <Product/>
-            <Product/>
-            <Product/>
-            <Product/>
-            <Product/>
-            <Product/>
-            <Product/>
+            
+            {products.map((title,i)=>{
+                return <Product i={i}  />
+            })} 
         </section>
     )
 }
