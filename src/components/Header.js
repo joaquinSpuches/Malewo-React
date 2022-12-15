@@ -21,7 +21,7 @@ const handleClick2 = ()=>{
     <header className='header'>
         <ShoppingCart handleClick2={handleClick2} handleClick={handleClick} clicked={clicked}  clicked2={clicked2} />
         <a className='noHover' href='/'><img src={logo} /></a>
-        <h1 className="title">CASA MALEWO</h1>
+        <h1 className={`title ${clicked ? 'title-active':''}`}>CASA MALEWO</h1>
         <NavBar  handleClick={handleClick } handleClick2={handleClick2} clicked2={clicked2} clicked={clicked} links={['Home', 'Products','About Us', 'Contact'] }  /> 
        
         

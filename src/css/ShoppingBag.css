@@ -7,5 +7,14 @@ img{
     opacity: 0;
     cursor: none;
     display: none;
+    
+}
+.shopButton2{
+    opacity: 0;
+    cursor: none;
+    display: block;
 
+}
+.shopButton3{
+    display: none;
 }

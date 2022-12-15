@@ -3,7 +3,7 @@ import Filter from './Filter'
 import ProductList from './ProductList.js';
 import '../css/Product.css'
 
-export default function Main(){
+export default function Products(){
 
     return(
         <main>

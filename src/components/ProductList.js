@@ -11,7 +11,8 @@ export default function ProductList(props) {
         <section className='productList'>
             
             {products.map((title,i)=>{
-                return <Product i={i}  />
+                
+                return <Product key={i} title={title} i={i}  />
             })} 
         </section>
     )
