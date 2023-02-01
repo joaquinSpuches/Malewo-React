@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Malewo-React/static/css/main.bf2b489b.css",
+    "main.js": "/Malewo-React/static/js/main.11fec601.js",
+    "static/js/787.527303dc.chunk.js": "/Malewo-React/static/js/787.527303dc.chunk.js",
+    "static/media/png": "/Malewo-React/static/media/0c0d6b0b4983ed5e9a759b99d96256a2.5068343b86015cd12198.png",
+    "static/media/logo.jpg": "/Malewo-React/static/media/logo.df01b26d5c2ced33359e.jpg",
+    "index.html": "/Malewo-React/index.html",
+    "static/media/filterIcon.svg": "/Malewo-React/static/media/filterIcon.e774a285c634263a4d4022a29b54ef55.svg",
+    "main.bf2b489b.css.map": "/Malewo-React/static/css/main.bf2b489b.css.map",
+    "main.11fec601.js.map": "/Malewo-React/static/js/main.11fec601.js.map",
+    "787.527303dc.chunk.js.map": "/Malewo-React/static/js/787.527303dc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf2b489b.css",
+    "static/js/main.11fec601.js"
+  ]
+}
