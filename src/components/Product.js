@@ -21,7 +21,7 @@ function Product(props) {
             
                  {/*   <img src={products[props.i].img}/> */ }{/* imagen especial para cada producto */}
             <Link className="a-product" to={`/Products/${products[props.i].name}`} >
-                <img onMouseOver={productHover} onMouseOut={productHover} className ={`product-img `} src='/static/media/0c0d6b0b4983ed5e9a759b99d96256a2.5068343b86015cd12198.png'  />
+                <img onMouseOver={productHover} onMouseOut={productHover} className ={`product-img `} src={require(`../static/${products[props.i].img}`)}  />
                 <h1  key={props.i} className= {`product ${hover ? '': 'active-product'} `}>  {products[props.i].name} </h1>
             </Link>
             

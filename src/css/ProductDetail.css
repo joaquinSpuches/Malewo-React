@@ -1,18 +1,22 @@
 .product-image{
-    width: 100%;
-    padding-bottom: 50px;
-    padding-top: 50px ;
-    height: 70hv;
+    width: 33vw;
+ 
 }
 main{
     width:100%;
     display:flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+}
+main div{
+    padding: 50px 0 50px 0;
+    display: flex;
+    flex-direction: row;
 }
 h2{
     align-self: flex-start;
 }
 p{
     text-align: center;
+    padding: 0 50px 0 50px;
 }
